@@ -1,0 +1,144 @@
+body {
+  background: rgb(42, 42, 154);
+  text-align:start;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #35538b;
+  height: 220px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  display: flex;
+  cursor:pointer;
+}
+
+.nav-links > div {
+  margin-left: 20px;
+  color: #ebc752;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.navbar img {
+  width: 300px;
+  height: 200px;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.hero {
+  background-color: #4d7fb0;
+  font-size: 30px;
+  color: #ebc752;
+  font-family: monospace;
+
+}
+
+h1, p, .my-btn {
+  margin-left: 90px;
+}
+
+p {
+  color: black;
+  font-family: monospace;
+}
+
+.my-btn {
+  background-color: #ebc752;
+  border: none;
+  border-radius: 4px;
+  padding: 20px;
+  cursor:pointer;
+}
+
+.hero img {
+  width: 240px;
+  height: 200px;
+  float: right;
+  margin-top: -160px;
+}
+/*.hero h1, .hero p, .hero button, .hero img {
+  display: inline-block;
+  vertical-align: top;
+}
+*/
+h2 {
+  color: #ebc752;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.grid-1 img {
+  border-radius: 10px;
+  border: 5px solid #ebc752;
+  margin: 10px;
+  height: 200px;
+}
+
+
+.hero-2 {
+  background: #4d7fb0;
+  padding: 70px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #ebc752;
+  font-family: monospace;
+}
+.reference {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.hero-3 {
+  background: #ebc752;
+  padding: 70px;
+}
+h4 {
+  font-size: 30px;
+  color: #447AB9;
+  font-family: monospace;
+}
+
+.my-btn2 {
+  background-color: #447AB9;
+  border: none;
+  border-radius: 4px;
+  padding: 20px;
+}
+.footer {
+  color: #35538b;
+  
+}
+
+.paragfoot {
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+#kitchen, #inside, #vault-door {
+  float: right;
+  padding: 100px;
+  cursor:pointer;
+}
+
+h4 {
+  margin-left: 400px;
+}
+.my-btn2 {
+  margin-left: 800px;
+  cursor:pointer;
+}
